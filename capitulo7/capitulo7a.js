@@ -28,3 +28,22 @@
 //-----------------------------------
 //Screen Scroll
 
+// const screen = window.screen;
+// document.write(screen);
+// console.log(screen.availWidth);
+
+const screenTop = window.screenTop;
+const screenLeft = window.screenLeft;
+
+document.write(screenTop);
+document.write(screenLeft);
+
+//scroll
+
+//  ventana = window.open("https://youtube.com");
+//  ventana1 = ventana.modeTo(100,300);
+
+
+const href = window.location.href;
+const pathname = window.location.pathname;
+document.write(pathname);
